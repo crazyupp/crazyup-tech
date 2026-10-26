@@ -4,4 +4,4 @@ User-agent: *
 Allow: /
 
 # Indica onde está a lista de URLs públicas do site.
-Sitemap: https://crazyup.com.br/sitemap.xml
+Sitemap: https://crazyup.tech/sitemap.xml

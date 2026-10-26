@@ -440,6 +440,17 @@ body:not(.theme-light) .cu-chat__panel { border: 1px solid rgba(141,199,232,.2);
 .audience-card p { color: var(--cu-muted); line-height: 1.7; }
 .audience-card a { color: var(--cu-orange); font-weight: 800; }
 
+/* Modo escuro: o card usava fundo branco com texto claro, deixando título e descrição ilegíveis. */
+body:not(.theme-light) .audience-card {
+    border-color: var(--cu-border);
+    background: var(--cu-surface);
+    box-shadow: 0 14px 35px rgba(0,0,0,.25);
+}
+body:not(.theme-light) .audience-card h3 { color: var(--cu-heading); }
+body:not(.theme-light) .audience-avatar { color: #d7ecfa; }
+body:not(.theme-light) .audience-avatar--orange { color: #ffb067; }
+body:not(.theme-light) .audience-avatar--blue { color: #7fd8f7; }
+
 .section-dark {
     background: #041225;
 }
